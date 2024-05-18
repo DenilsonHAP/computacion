@@ -1,0 +1,62 @@
+<div class="blank-layout-container justify-content-center align-items-center bg-light-primary">
+  <div
+    class="position-relative row w-100 h-100 bg-gredient justify-content-center"
+  >
+    <div class="col-lg-12 d-flex align-items-center">
+      <mat-card class="cardWithShadow boxed-auth">
+        <mat-card-content class="p-32">
+          
+
+          
+
+          <div class="or-border m-t-30">Persona</div>
+
+          <form class="m-t-30" [formGroup]="form" (ngSubmit)="onSubmit()">
+            <mat-label class="mat-subtitle-2 f-s-14 f-w-600 m-b-12 d-block"
+              >Nombre</mat-label
+            >
+            <mat-form-field appearance="outline" class="w-100" color="primary">
+              <input matInput value="{{data?data.nombre:''}}"  formControlName="nombre"/>
+            </mat-form-field>
+            <mat-label class="mat-subtitle-2 f-s-14 f-w-600 m-b-12 d-block"
+              >Correo</mat-label
+            >
+            <mat-form-field appearance="outline" class="w-100" color="primary">
+              <input matInput type="email" value="{{data?data.correo:''}}"  formControlName="correo"/>
+            </mat-form-field>
+            <!-- password -->
+            <mat-label class="mat-subtitle-2 f-s-14 f-w-600 m-b-12 d-block"
+              >Colegio</mat-label
+            >
+            <mat-form-field  class="w-100"
+              ><mat-select [(ngModel)]="valor" formControlName="colegio">
+                <mat-option *ngFor="let colegio of colegios" [value]="colegio.id">{{ colegio.nombre }}</mat-option>
+              </mat-select>
+            </mat-form-field >
+            
+
+           
+            <!-- input -->
+          </form>
+          <button (click)="onSubmit()" mat-flat-button color="primary" class="w-100">
+            Guardar
+          </button>
+          <span class="d-block f-w-500 text-center m-t-24"
+            >
+
+            <a
+              [routerLink]="['/administracion/persona/list']"
+              class="text-decoration-none text-primary f-w-500 f-s-14"
+            >
+              Regresar</a
+            >
+          </span>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+
+
+    
+  </div>
+</div>

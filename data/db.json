@@ -1,0 +1,315 @@
+{
+  "colegio": [
+    {
+      "id": "864914bd-1f33-4018-8858-a97f66e9dcd9",
+      "nombre": "Mater Admi",
+      "direccion": "Cahuide 123"
+    },
+    {
+      "id": "519fb28c-juan",
+      "nombre": "Juan Fany Garcia",
+      "direccion": "Junín, Lambayeque 14013"
+    },
+    {
+      "id": "519fb28c-aeb3-santa",
+      "nombre": "Santa Angela",
+      "direccion": "Av. Grau 797, Chiclayo 14008"
+    },
+    {
+      "id": "519fb28c-aeb3-47f3-8522-pedro",
+      "nombre": "San Pedro",
+      "direccion": "El Romero -Mórrope, Mórrope, Lambayeque"
+    },
+    {
+      "id": "519fb28c-aeb3-8522-0e65b1969fbd-gallo",
+      "nombre": "Pedro Ruiz Gallo",
+      "direccion": "Pedro Ruiz Gallo, Eten 14821"
+    },
+    {
+      "id": "aeb3-47f3-8522-0e65b1969fbd-manuel",
+      "nombre": "Institución Educativa Nuestra Señora del Rosario",
+      "direccion": "Manuel Gutiérrez, Chiclayo 14008"
+    }
+  ],
+  "persona": [
+    {
+      "id": "1",
+      "nombre": "Admin Admin",
+      "colegio": "",
+      "correo": "admin@colegio.com"
+    },
+    {
+      "id": "52b2598a-5247-4a82-8979-450c236048fe",
+      "nombre": "Denilson",
+      "colegio": "864914bd-1f33-4018-8858-a97f66e9dcd9",
+      "correo": "Denilson@colegio.com"
+    },
+    {
+      "id": "83992423",
+      "nombre": "Sanchez Pedro",
+      "colegio": "519fb28c-aeb3-8522-0e65b1969fbd-gallo",
+      "correo": "Spedro@colegio.com"
+    },
+    {
+      "id": "83992423-026c",
+      "nombre": "Edgar Leyton",
+      "colegio": "aeb3-47f3-8522-0e65b1969fbd-manuel",
+      "correo": "Eleyton@colegio.com"
+    },
+    {
+      "id": "83992423-026c-43ca",
+      "nombre": "Pedro Ruiz",
+      "colegio": "519fb28c-aeb3-santa",
+      "correo": "Pruizn@colegio.com"
+    },
+    {
+      "id": "83992423-026c-43ca-83d0",
+      "nombre": "Rosario",
+      "colegio": "519fb28c-juan",
+      "correo": "Rosario@colegio.com"
+    },
+    {
+      "id": "7475261a-8d02-4ea0-b0a4-891d4cf9dcc8",
+      "nombre": "PERSON",
+      "colegio": "519fb28c-aeb3-8522-0e65b1969fbd-gallo",
+      "correo": "CORRERO@COLEGIO.COM"
+    }
+  ],
+  "certificado": [
+    {
+      "id": "1",
+      "nombre": "Python basic",
+      "detalle": [
+        {
+          "id": "pb-1",
+          "titulo": "TTTT",
+          "descripcion": "Módulo I"
+        },
+        {
+          "id": "pb-2",
+          "titulo": "TTTT",
+          "descripcion": "Módulo II"
+        }
+      ],
+      "direccion": ""
+    },
+    {
+      "id": "2",
+      "nombre": "Phyton medio",
+      "detalle": [
+        {
+          "id": "pm-1",
+          "titulo": "TTTT",
+          "descripcion": "Módulo I"
+        },
+        {
+          "id": "pm-2",
+          "titulo": "TTTT",
+          "descripcion": "Módulo II"
+        },
+        {
+          "id": "pm-3",
+          "titulo": "TTTT",
+          "descripcion": "Módulo III"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Phyton PRO",
+      "detalle": [
+        {
+          "id": "pp-1",
+          "titulo": "TTTT",
+          "descripcion": "Módulo PRO I"
+        },
+        {
+          "id": "pp-2",
+          "titulo": "TTTT",
+          "descripcion": "Módulo PRO II"
+        },
+        {
+          "id": "pp-3",
+          "titulo": "TTTT",
+          "descripcion": "Módulo PRO III"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Java PRO",
+      "detalle": [
+        {
+          "id": "jp-1",
+          "titulo": "TTTT",
+          "descripcion": "Módulo PRO I"
+        },
+        {
+          "id": "jp-2",
+          "titulo": "TTTT",
+          "descripcion": "Módulo PRO II"
+        },
+        {
+          "id": "jp-3",
+          "titulo": "TTTT",
+          "descripcion": "Módulo PRO III"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nombre": "Angular",
+      "detalle": [
+        {
+          "id": "an-1",
+          "titulo": "Angular I",
+          "descripcion": "Módulo Angular I"
+        },
+        {
+          "id": "an-2",
+          "titulo": "Angular II",
+          "descripcion": "Módulo Angular II"
+        },
+        {
+          "id": "an-3",
+          "titulo": "Angular III",
+          "descripcion": "Módulo Angular III"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nombre": "Vue js",
+      "detalle": [
+        {
+          "id": "vu-1",
+          "titulo": "TTTT",
+          "descripcion": "Módulo PRO I"
+        },
+        {
+          "id": "vu-2",
+          "titulo": "TTTT",
+          "descripcion": "Módulo PRO II"
+        },
+        {
+          "id": "vu-3",
+          "titulo": "TTTT",
+          "descripcion": "Módulo PRO III"
+        }
+      ]
+    }
+  ],
+  "matricula": [
+    {
+      "id": "2d071fa3-d875-4c5c-998d-c11f8e9b3c9f",
+      "persona": "52b2598a-5247-4a82-8979-450c236048fe",
+      "certificado": "1",
+      "nombrePersona": "Denilson",
+      "nombreCertificado": "Python basic",
+      "nota": 50,
+      "monto": 10
+    },
+    {
+      "id": "ac55edb8-3940-4c3a-87f3-18a2043a0e63",
+      "persona": "52b2598a-5247-4a82-8979-450c236048fe",
+      "certificado": "3",
+      "nombrePersona": "Denilson",
+      "nombreCertificado": "Phyton PRO",
+      "monto": 100
+    }
+  ],
+  "pago": [
+    {
+      "id": "d4c4397c-ce47-4dca-a0d0-327bbb003875",
+      "monto": 10,
+      "codigo": "",
+      "matricula": "2d071fa3-d875-4c5c-998d-c11f8e9b3c9f"
+    },
+    {
+      "id": "88e0771f-a04d-498d-9b93-686c18c44987",
+      "monto": 100,
+      "codigo": "ABC150",
+      "matricula": "a1f09d42-d370-45ef-bebe-cd33c3f82e2c"
+    },
+    {
+      "id": "3808ac65-daf2-4f9a-b56d-3de5d487243e",
+      "monto": 100,
+      "codigo": "ABC",
+      "matricula": "ac55edb8-3940-4c3a-87f3-18a2043a0e63"
+    }
+  ],
+  "nota": [
+    {
+      "id": "3db84c8e-43c6-446c-9671-636d6c093c9d",
+      "detalle": "pb-1",
+      "matricula": "2d071fa3-d875-4c5c-998d-c11f8e9b3c9f",
+      "nota": 12,
+      "recomendacion": ""
+    },
+    {
+      "id": "64bacfb4-9567-4b84-b7bd-cf21a3721a3b",
+      "detalle": "pb-2",
+      "matricula": "2d071fa3-d875-4c5c-998d-c11f8e9b3c9f",
+      "recomendacion": "",
+      "nota": 66
+    },
+    {
+      "id": "b4c5f634-da01-4d09-8ad2-a2eddc1aad57",
+      "detalle": "an-1",
+      "matricula": "a1f09d42-d370-45ef-bebe-cd33c3f82e2c",
+      "nota": 10,
+      "recomendacion": ""
+    },
+    {
+      "id": "a6e66655-239f-4894-a740-fc7fedac3e6a",
+      "detalle": "an-2",
+      "matricula": "a1f09d42-d370-45ef-bebe-cd33c3f82e2c",
+      "nota": 10,
+      "recomendacion": ""
+    },
+    {
+      "id": "da67648e-0d6f-4716-9f96-4ce3eefc32ff",
+      "detalle": "an-3",
+      "matricula": "a1f09d42-d370-45ef-bebe-cd33c3f82e2c",
+      "nota": 11,
+      "recomendacion": ""
+    },
+    {
+      "id": "aeee4910-332d-4a16-ba97-fdafb2688f9b",
+      "detalle": "pb-1",
+      "matricula": "644d1cb9-156d-4816-ad3c-10a1a0c73196",
+      "nota": 20,
+      "recomendacion": ""
+    },
+    {
+      "id": "7448b6e4-0d5e-4a33-aea4-bd09175f0a9b",
+      "detalle": "pb-2",
+      "matricula": "644d1cb9-156d-4816-ad3c-10a1a0c73196",
+      "nota": 10,
+      "recomendacion": ""
+    },
+    {
+      "id": "64f577eb-16d0-4bef-bea8-f63fcfb0947b",
+      "detalle": "pp-1",
+      "matricula": "ac55edb8-3940-4c3a-87f3-18a2043a0e63"
+    },
+    {
+      "id": "6dce5bb8-8646-4963-89ee-82c090b1fd4d",
+      "detalle": "pp-2",
+      "matricula": "ac55edb8-3940-4c3a-87f3-18a2043a0e63"
+    },
+    {
+      "id": "94b799b5-40e6-4a83-b4d5-6c7e78c7ef71",
+      "detalle": "pp-3",
+      "matricula": "ac55edb8-3940-4c3a-87f3-18a2043a0e63"
+    }
+  ],
+  "login": [
+    {
+      "id": "1",
+      "usuario": "admin",
+      "contrasena": "admin",
+      "persona": "1"
+    }
+  ]
+}

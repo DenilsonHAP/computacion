@@ -1,0 +1,123 @@
+
+
+
+<mat-card class="cardWithShadow theme-card">
+  <mat-card-header>
+    <mat-card-title class="m-b-0">Certificado - Detalle</mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="b-t-1">
+    <div class="row">
+      <div class="col-lg-6">
+        <!-- --------------------------------------------------- -->
+        <!-- basic -->
+        <!-- --------------------------------------------------- -->
+        <mat-card class="b-1 shadow-none">
+          
+          <mat-card-content class="b-t-1">
+            <div class="or-border m-t-30">Certifcado</div>
+
+
+
+            <mat-label class="mat-subtitle-2 f-s-14 f-w-600 m-b-12 d-block"
+              >Nombre</mat-label
+            >
+            <mat-form-field appearance="outline" class="w-100" color="primary">
+              <input matInput type="text" value="{{data?data.nombre:''}}"  disabled="true"/>
+            </mat-form-field>
+            
+
+          
+          <button (click)="onSubmit()" mat-flat-button color="primary" class="w-100">
+            Guardar
+          </button>
+          <span class="d-block f-w-500 text-center m-t-24"
+            >
+
+            <a
+              [routerLink]="['/administracion/certificado/list']"
+              class="text-decoration-none text-primary f-w-500 f-s-14"
+            >
+              Regresar</a
+            >
+          </span>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="col-lg-6 row">
+        <div class="col-lg-12" >
+          <!-- --------------------------------------------------- -->
+          <!-- two line -->
+          <!-- --------------------------------------------------- -->
+          <mat-card class="b-1 shadow-none">
+            <mat-card-header>
+              <mat-card-title>Nuevo item</mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="b-t-1">
+              <mat-list>
+                
+                <mat-list-item>
+                 
+                  <span matListItemLine class="mat-body-1"></span>
+                </mat-list-item>
+                <form class="m-t-30" [formGroup]="form" (ngSubmit)="onSubmit()">
+
+                <mat-label class="mat-subtitle-2 f-s-14 f-w-600 m-b-12 d-block"
+                >Título</mat-label>
+    
+                <mat-form-field appearance="outline" class="w-100" color="primary">
+                  <input matInput type="text" value="0"  formControlName="titulo"/>
+                </mat-form-field>
+
+                <mat-label class="mat-subtitle-2 f-s-14 f-w-600 m-b-12 d-block"
+                >Descripción</mat-label>
+    
+                <mat-form-field appearance="outline" class="w-100" color="primary">
+                  <input matInput type="text" value="" formControlName="descripcion" />
+                </mat-form-field>
+                 </form>
+              </mat-list>
+            </mat-card-content>
+          </mat-card>
+        </div>
+        <div class="col-lg-12" *ngFor="let detalle of data?.detalle?data?.detalle:[]">
+          <!-- --------------------------------------------------- -->
+          <!-- two line -->
+          <!-- --------------------------------------------------- -->
+          <mat-card class="b-1 shadow-none">
+           
+            <mat-card-content class="b-t-1">
+              <mat-list>
+                
+                <mat-list-item>
+                 
+                  <span matListItemLine class="mat-body-1"></span>
+                </mat-list-item>
+                <mat-label class="mat-subtitle-2 f-s-14 f-w-600 m-b-12 d-block"
+                >Título</mat-label>
+    
+                <mat-form-field appearance="outline" class="w-100" color="primary">
+                  <input matInput type="text" value="{{detalle.titulo}}"  [attr.data-id]="detalle.id + '-nota'" disabled="true" />
+                </mat-form-field>
+
+                <mat-label class="mat-subtitle-2 f-s-14 f-w-600 m-b-12 d-block"
+                >Descripción</mat-label>
+    
+                <mat-form-field appearance="outline" class="w-100" color="primary">
+                  <input matInput type="text" value="{{detalle.descripcion }}"  [attr.data-id]="detalle.id +  '-recomendacion'" disabled="true" />
+                </mat-form-field>
+                  <button (click)="onDelete(detalle.id)" mat-flat-button color="warn" class="w-100 col-lg-3">
+                  Borrar
+                </button>
+              </mat-list>
+            </mat-card-content>
+          </mat-card>
+        </div>
+
+       
+      </div>
+      
+
+      
+    </div>
+  </mat-card-content>
+</mat-card>
